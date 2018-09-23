@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1A448E21530C9A00C9D549 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A448D21530C9A00C9D549 /* ImageProcessor.swift */; };
 		5DD4D68C214EA46A00A878B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD4D68B214EA46A00A878B7 /* AppDelegate.swift */; };
 		5DD4D68E214EA46B00A878B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD4D68D214EA46B00A878B7 /* ViewController.swift */; };
 		5DD4D691214EA46B00A878B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD4D68F214EA46B00A878B7 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D1A448D21530C9A00C9D549 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		5DD4D688214EA46A00A878B7 /* Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD4D68B214EA46A00A878B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD4D68D214EA46B00A878B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				5DD4D692214EA46F00A878B7 /* Assets.xcassets */,
 				5DD4D694214EA46F00A878B7 /* LaunchScreen.storyboard */,
 				5DD4D697214EA46F00A878B7 /* Info.plist */,
+				5D1A448D21530C9A00C9D549 /* ImageProcessor.swift */,
 			);
 			path = Dogs;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				5DD4D68E214EA46B00A878B7 /* ViewController.swift in Sources */,
 				5DD4D6BA214EA5FB00A878B7 /* mobilenet_1.0_224_dogs.mlmodel in Sources */,
+				5D1A448E21530C9A00C9D549 /* ImageProcessor.swift in Sources */,
 				5DD4D68C214EA46A00A878B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ583636MD;
 				INFOPLIST_FILE = Dogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJ583636MD;
 				INFOPLIST_FILE = Dogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
